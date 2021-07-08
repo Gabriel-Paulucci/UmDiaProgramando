@@ -12,7 +12,7 @@ Bem agora quero tratar com vocês alguns topios:
 Será bem simples, todo dia eu irei escrever sobre alguma coisa que eu estive fazendo, desafios, coisas que eu aprendi e coisas aleatorias também kkkk espero que entendam que aqui será um local para descontração.
 Eu ativei a aba de discussão do github, la sera o local que vocês podem interagir comigo em relação as publicações ou qualquer outro assunto, se sintam livres para escrever o quanto quiserem.
 
-### Havera codigo
+### Haverá codigo
 
 Simm, é uma das coisas que eu pretendo fazer, colocar mini codigos quadno eu estiver comentando sobre algo e peço que caso saiba maneiras melhores de fazer o mesmo codigo ou dicas, por favor envie um PR ou entre em contato via a aba de discussão.
 
