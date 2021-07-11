@@ -1,0 +1,37 @@
+@page "/"
+@inject ISessionStorageService sessionStorage
+@inject HttpClient http
+@inject NavigationManager navManager
+
+<div class="form d-flex justify-content-center align-items-center">
+    <form class="d-flex flex-column">
+        <input class="form-input" type="text" placeholder="username" @bind-value="username"/>
+        <input class="form-input" type="password" placeholder="password" @bind-value="password"/>
+        <button class="form-input" type="button" @onclick="Logar">Login</button>
+    </form>
+</div>
+
+@code {
+    private string username = "";
+    private string password = "";
+
+    async Task Logar()
+    {
+        var response = await http.PostAsJsonAsync("http://localhost:8000/auth", new
+        {
+            username,
+            password
+        });
+
+        if (response.StatusCode == System.Net.HttpStatusCode.Accepted)
+        {
+            var user = await response.Content.ReadFromJsonAsync<User>();
+
+            Console.WriteLine(user.Username);
+
+            await sessionStorage.SetItemAsync("user", user);
+
+            navManager.NavigateTo("/users");
+        }
+    }
+}

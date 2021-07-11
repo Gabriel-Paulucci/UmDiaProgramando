@@ -1,0 +1,8 @@
+.form {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.form-input {
+    margin: 0.5rem;
+}

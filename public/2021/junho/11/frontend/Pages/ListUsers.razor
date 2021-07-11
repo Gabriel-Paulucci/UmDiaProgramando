@@ -1,0 +1,48 @@
+@page "/users"
+@inject ISessionStorageService sessionStorage
+
+<div class="d-flex align-items-center flex-column">
+    <h3>Usuarios</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Username</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (users is not null)
+            {
+                @for(var i = 0; i < users.Length; i++)
+                {
+                    <tr>
+                        <th>@i</th>
+                        <th>@users[i].Username</th>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    private UserJson[] users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var user = await sessionStorage.GetItemAsync<User>("user");
+        if (user is not null) {
+            using(var http = new HttpClient())
+            {
+                http.DefaultRequestHeaders.Add("Authorization", user.Token);
+
+                users = await http.GetFromJsonAsync<UserJson[]>("http://localhost:8000/users");
+
+                Console.WriteLine(users.Length);
+            }
+        }
+    }
+
+    record UserJson(string Username);
+}
