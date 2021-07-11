@@ -1,0 +1,21 @@
+[package]
+name = "vulcan-example"
+version = "0.1.0"
+edition = "2018"
+authors = ["Takasakiii <https://github.com/Takasakiii>"]
+license = "MIT"
+resolver = "2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = { version = "0.5.0-rc.1", features = ["json"] }
+serde = "1.0.126"
+rbatis = "2.0.13"
+log = "0.4.14"
+serde_json = "1.0.64"
+lazy_static = "1.4.0"
+jwt = "0.14.0"
+hmac = "0.11.0"
+sha2 = "0.9.5"
+rocket_cors = { git = "https://github.com/lawliet89/rocket_cors", rev = "dfd3662c49e2f6fc37df35091cb94d82f7fb5915" }
