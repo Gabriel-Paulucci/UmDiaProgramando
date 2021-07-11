@@ -25,6 +25,10 @@ pub async fn init_database() -> Result<(), DatabaseError> {
         create index if not exists jwt on user(jwt);
 
         insert or ignore into user values ('vulcan', '123', 'NULL');
+        insert or ignore into user values ('takasaki', '123', 'NULL');
+        insert or ignore into user values ('shiba', '123', 'NULL');
+        insert or ignore into user values ('pitas', '123', 'NULL');
+        insert or ignore into user values ('fardragi', '123', 'NULL');
     ",
             &vec![],
         )
