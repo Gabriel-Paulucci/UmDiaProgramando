@@ -11,7 +11,7 @@ Eu ativei a aba de discussão do github, la sera o local que vocês podem intera
 
 ### Haverá codigo
 
-Simm, é uma das coisas que eu pretendo fazer, colocar mini codigos quadno eu estiver comentando sobre algo e peço que caso saiba maneiras melhores de fazer o mesmo codigo ou dicas, por favor envie um PR ou entre em contato via a aba de discussão.
+Simm, é uma das coisas que eu pretendo fazer, colocar mini codigos quando eu estiver comentando sobre algo e peço que caso saiba maneiras melhores de fazer o mesmo codigo ou dicas, por favor envie um PR ou entre em contato via a aba de discussão.
 
 ### Estrutura do projeto
 
