@@ -8,8 +8,8 @@ Essa noite passei estudando um pouco de como é fazer uma API usando [Actix-Web]
 use actix_web::{get, App, HttpServer, Responder};
 
 #[get("/")]
-async fn index() -> impl Responder {
-    format!("Olá mundo")
+async fn index() -> &'static str {
+    "Olá mundo"
 }
 
 #[actix_web::main]
@@ -34,8 +34,8 @@ Aqui um exemplo a mesma API so que usando Rocket
 extern crate rocket;
 
 #[get("/")]
-fn hello() -> String {
-    format!("Olá mundo")
+fn hello() -> &'static str {
+    "Olá mundo"
 }
 
 #[launch]
@@ -131,3 +131,9 @@ dotnet run
 Hoje foi bem produtivo, espero continur assim essa semana, vejo todos novamente amanhã, com talvez o escopo do meu projeto que pretendo fazer.
 
 Bye bye.
+
+## Comentarios sobre o assunto
+
+Eu tinha colocado o retorno da api com String, mas como nessa discussão me foi explicado que posso colocoar no lugar `&'static str`.
+
+[Motivo de ser `&'static str` - Takasakiii](https://github.com/Gabriel-Paulucci/UmDiaProgramando/discussions/4)
