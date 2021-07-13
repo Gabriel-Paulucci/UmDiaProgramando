@@ -6,7 +6,7 @@ Hoje sera algo um pouco mais vago em relação a ontem pois são mais pensamento
 
 ## Tema do projeto
 
-Bem eu sempre quis fazer jogos, era a área que eu queria seguir inicialmente, mas eu fui para progrmação antes de tudo, então eu pretendo fazer uma joguinho estilo RPG, mas nada em 3D por enuanto, so a tematica, talvez isso evolua para um jogo completo no futuro, e mais complexo, isso sera um teste para a idea que eu tenho para o estilo do jogo.
+Bem eu sempre quis fazer jogos, era a área que eu queria seguir inicialmente, mas eu fui para progrmação antes de tudo, então eu pretendo fazer uma joguinho estilo RPG, mas nada em 3D por enquanto, so a tematica, talvez isso evolua para um jogo completo no futuro, e mais complexo, isso sera um teste para a idea que eu tenho para o estilo do jogo.
 
 ## Estrutura
 
