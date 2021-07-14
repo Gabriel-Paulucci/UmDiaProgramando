@@ -2,6 +2,7 @@
 
 ## Junho
 
+- [Dia 14/07/2021 - Dia do descanso](public/2021/junho/14)
 - [Dia 13/07/2021 - Teste do RH e base do projeto](public/2021/junho/13)
 - [Dia 12/07/2021 - Pensando na estrutura](public/2021/junho/12)
 - [Dia 11/07/2021 - Mini PWA](public/2021/junho/11)
