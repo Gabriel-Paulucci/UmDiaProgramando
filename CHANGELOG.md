@@ -2,6 +2,7 @@
 
 ## Junho
 
+- [Dia 17/07/2021 - Em busca da lib](public/2021/junho/17)
 - [Dia 16/07/2021 - Links simbólicos](public/2021/junho/16)
 - [Dia 15/07/2021 - Express](public/2021/junho/15)
 - [Dia 14/07/2021 - Dia do descanso](public/2021/junho/14)
