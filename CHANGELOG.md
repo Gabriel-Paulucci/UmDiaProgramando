@@ -2,6 +2,7 @@
 
 ## Junho
 
+- [Dia 19/07/2021 - Mudando a lib e criando users](public/2021/junho/19)
 - [Dia 18/07/2021 - Config inicial da DB](public/2021/junho/18)
 - [Dia 17/07/2021 - Em busca da lib](public/2021/junho/17)
 - [Dia 16/07/2021 - Links simbólicos](public/2021/junho/16)
