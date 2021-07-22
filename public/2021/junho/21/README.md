@@ -92,7 +92,7 @@ O `SortedList` é o meio termo digamos, não tem um custo alto na memória, mas 
 
 E como bônus `List<ValueTuple>`, esse foi mais uma curiosidade do que realmente algo para levar em conta, pois ele gera um cenário totalmente horrível.
 
-## Enceramento
+## Encerramento
 
 Caso tenham algo a acrescentar não tenham medo de abrir uma discussão no github, estarei aqui lendo todas as opiniões, ou caso tenha alguma dúvida sobre o tema eu responderei.
 
