@@ -2,6 +2,7 @@
 
 ## Junho
 
+- [Dia 21/07/2021 - Benchmark de listas em C#](public/2021/junho/21)
 - [Dia 20/07/2021 - Github Actions](public/2021/junho/20)
 - [Dia 19/07/2021 - Mudando a lib e criando users](public/2021/junho/19)
 - [Dia 18/07/2021 - Config inicial da DB](public/2021/junho/18)
